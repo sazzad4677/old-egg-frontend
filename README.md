@@ -1,18 +1,16 @@
-# Getting Started with Create React App
+# Live URL
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Click here](https://old-egg.web.app).
 
-## Available Scripts
+## For backend
 
-In the project directory, you can run:
+[Click here](https://github.com/Porgramming-Hero-web-course/full-stack-server-sazzad4677).
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. You can add product in the database
+2. You can delete product from database
+3. You have to sign in for access this website order or add or delete product
 
 ### `npm test`
 

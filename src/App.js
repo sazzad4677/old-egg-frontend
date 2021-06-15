@@ -1,16 +1,14 @@
+import { createContext, useState } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import AddProduct from "./components/AddProduct/AddProduct";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import ManageProduct from "./components/ManageProduct/ManageProduct";
-import Home from "./components/Home/Home";
 import Checkout from "./components/Checkout/Checkout";
-import Sidebar from "./components/Sidebar/Sidebar";
-import Order from "./components/Order/Order";
+import Home from "./components/Home/Home";
 import Login from "./components/Login/Login";
-import { createContext } from "react";
-import { useState } from "react";
-import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import ManageProduct from "./components/ManageProduct/ManageProduct";
 import NoMatch from "./components/NoMatch/NoMatch";
+import Order from "./components/Order/Order";
+import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
 export const userContext = createContext();
 function App() {
   const [loggedIn, setLoggedIn] = useState({});

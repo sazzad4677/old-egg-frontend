@@ -35,7 +35,6 @@ const ManageProduct = () => {
       <Header></Header>
       <Row>
         <Col md="auto">
-          {/* <Sidebar></Sidebar> */}
         </Col>
         <Col>
           <Container
