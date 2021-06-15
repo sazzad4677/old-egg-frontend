@@ -1,7 +1,6 @@
-import React, { useContext, useEffect } from "react";
-import { useState } from "react";
-import { Container, Table, Button } from "react-bootstrap";
-import { useParams, Link } from "react-router-dom";
+import React, { useContext, useEffect, useState } from "react";
+import { Button, Container, Table } from "react-bootstrap";
+import { Link, useParams } from "react-router-dom";
 import { userContext } from "../../App";
 import Header from "../Header/Header";
 import "./Checkout.css";

@@ -1,11 +1,10 @@
-import React from "react";
-import { Button, Container, Form, FormControl, Nav, Navbar, Dropdown } from "react-bootstrap";
-import {Link,NavLink} from "react-router-dom"
-import './Header.css'
 import firebase from "firebase/app";
 import "firebase/auth";
-import { useContext } from "react";
+import React, { useContext } from "react";
+import { Button, Container, Dropdown, Nav, Navbar } from "react-bootstrap";
+import { Link, NavLink } from "react-router-dom";
 import { userContext } from "../../App";
+import './Header.css';
 const Header = () => {
   const [loggedIn, setLoggedIn] = useContext(userContext);
   const { isLoggedIn} = loggedIn;

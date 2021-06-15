@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Col, Container, Navbar, Row, Table, Button } from "react-bootstrap";
-import Sidebar from "../Sidebar/Sidebar";
-import { AiFillEdit, AiFillDelete } from "react-icons/ai";
-import "./ManageProduct.css";
+import { Col, Container, Row, Table } from "react-bootstrap";
+import { AiFillDelete, AiFillEdit } from "react-icons/ai";
 import Header from "../Header/Header";
+import "./ManageProduct.css";
 
 const ManageProduct = () => {
   const [products, setProducts] = useState([]);

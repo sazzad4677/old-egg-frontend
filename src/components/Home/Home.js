@@ -1,10 +1,10 @@
 import React from "react";
-import { Button, Container, Form, FormControl } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import Header from "../Header/Header";
+import Products from "../Products/Products";
 import "./Home.css";
 
 
-import Products from "../Products/Products";
 
 const Home = () => {
   return (

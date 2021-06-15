@@ -1,12 +1,12 @@
-import React, { useContext, useState } from "react";
-import { Form, Button, Container } from "react-bootstrap";
-import { Link, useHistory, useLocation } from "react-router-dom";
-import Header from "../Header/Header";
-import "./Login.css";
 import firebase from "firebase/app";
 import "firebase/auth";
+import React, { useContext, useState } from "react";
+import { Container } from "react-bootstrap";
+import { useHistory, useLocation } from "react-router-dom";
 import { userContext } from "../../App";
 import { firebaseConfig } from "../FirebaseConfig/FirebaseConfig.config";
+import Header from "../Header/Header";
+import "./Login.css";
 
 // handel error with firebase initialization conflict
 if (!firebase.apps.length) {

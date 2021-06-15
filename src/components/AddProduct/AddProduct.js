@@ -1,10 +1,9 @@
-import React, { useState } from "react";
-import { Col, Container, Nav, Navbar, Row } from "react-bootstrap";
+import React from "react";
+import { Container } from "react-bootstrap";
 import Header from "../Header/Header";
-import ManageProduct from "../ManageProduct/ManageProduct";
-import Sidebar from "../Sidebar/Sidebar";
 import "./AddProduct.css";
 import AddProductForm from "./AddProductForm";
+
 
 const AddProduct = () => {
 

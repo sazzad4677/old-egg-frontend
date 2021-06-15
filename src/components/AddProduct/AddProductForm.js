@@ -1,8 +1,6 @@
-import React from "react";
-import { BsCloudUpload } from "react-icons/bs";
 import axios from "axios";
-import { useState, useForm } from "react";
-import { Button, Form, Navbar, Row } from "react-bootstrap";
+import React, { useState } from "react";
+import { Button, Form } from "react-bootstrap";
 
 const AddProductForm = () => {
   // get data from user

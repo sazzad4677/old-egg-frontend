@@ -1,9 +1,8 @@
-import React, { useEffect, useState } from "react";
-import { Button, Card, CardDeck, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import laptop from "../../images/Laptop.jpg";
-import "./Products.css";
 import CircularProgress from "@material-ui/core/CircularProgress";
+import React, { useEffect, useState } from "react";
+import { Button, Card, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import "./Products.css";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
