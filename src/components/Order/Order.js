@@ -28,7 +28,7 @@ const Order = () => {
       >
         <div className="d-flex justify-content-between">
         <h3 className="mt-5">You have {orders.length} Ordered Product</h3>
-        <h3 className="mt-5" style={{color: 'red'}}>Total Spent: {totalPrice}</h3>
+        <h3 className="mt-5" style={{color: 'red'}}>Total Spent: ${totalPrice}</h3>
         </div>
         
         <Table responsive borderless className=" mt-3 table">
