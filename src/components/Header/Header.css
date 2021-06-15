@@ -1,0 +1,18 @@
+.main-title {
+  color: #363958 !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.navItem {
+  color: #363958 !important;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.login-btn {
+  background-color: #511281 !important;
+  border: 0;
+}
+.login-btn:hover {
+  background-color: #6946f4 !important;
+  border: 0;
+}
